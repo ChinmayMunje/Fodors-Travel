@@ -1,0 +1,147 @@
+.hero__subtitle img {
+width: 2.3rem;
+height: 2.3rem;
+}
+
+.hero__content h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.hero__content h1 .highlight {
+    color: #e28743;
+}
+
+.hero__content p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: black;
+}
+
+.hero__Img-box img, .hero__Img-box video {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: none;
+    object-fit: cover;
+}
+
+.hero__content {
+    padding-top: 2rem;
+}
+
+.hero__Img-box {
+    padding-top: 2rem;
+}
+
+.services__subtitle{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #e28743;
+}
+
+.services__title {
+    font-size: 2.5rem;
+    font-weight: 500;
+
+}
+
+.featured__tour-title {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.experience__content h2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.experience__content p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: gray;
+}
+
+.counter__wrapper {
+    margin-top: 2.5rem;
+}
+
+.counter__box span {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e28743;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 10px 5px 10px 5px;
+}
+
+.counter__box h6 {
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    color: gray;
+}
+
+.experience__Img img {
+width: 90%;
+}
+
+.gallery__title {
+    font-size: 2.3rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+
+.masonry__img {
+    transition: 0.3s;
+}
+.masonry__img:hover {
+    transform: scale(1.1);
+}
+
+.testimonial__title {
+    font-size: 2.3rem;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .hero__content h1 {
+        font-size: 2.7rem;
+    }
+
+    .hero__Img-box{
+        display: none;
+    }
+
+    .hero__video-box{
+        display: block;
+    }
+
+    .services__subtitle, .featured__tour-title, .gallery__title, .testimonial__title, .experience__content h2{
+        font-size: 2rem;
+    }
+
+    .experience__Img{
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero__content h1 {
+        font-size: 1.8rem;
+    }
+
+    .services__title, .featured__tour-title, .gallery__title, .testimonial__title, .experience__content h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
